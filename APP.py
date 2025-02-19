@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # 加载糖尿病预测模型
-model = joblib.load('Diabetes_Model.pkl')  # 确保将模型文件路径修改为你的训练模型路径
+model = joblib.load('XGBoost.pkl')  # 确保将模型文件路径修改为你的训练模型路径
 
 # 定义新数据集的特征名称
 feature_names = [
